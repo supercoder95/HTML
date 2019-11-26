@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+    </script>
+    <style>
+        .blue{
+            color: blue;
+        }
+    </style>
+    </head>
+    <body>
+         <button id="button1">button</button>
+         <p>what the ?</p>
+        <ol>
+        </ol>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("p").css("background-color", "blue");
+            });
+        });
+        </script>
+    </body>
+</html>
